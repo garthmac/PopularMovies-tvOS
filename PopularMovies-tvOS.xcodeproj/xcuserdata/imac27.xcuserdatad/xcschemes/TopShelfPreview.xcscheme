@@ -1,11 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
    LastUpgradeVersion = "0710"
+   wasCreatedForAppExtension = "YES"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
       buildImplicitDependencies = "YES">
       <BuildActionEntries>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "71D37A421BBCB4F600DB7F91"
+               BuildableName = "TopShelfPreview.appex"
+               BlueprintName = "TopShelfPreview"
+               ReferencedContainer = "container:PopularMovies-tvOS.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
          <BuildActionEntry
             buildForTesting = "YES"
             buildForRunning = "YES"
@@ -28,33 +43,13 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "71F98CB81BBB7D56004AC26A"
-               BuildableName = "PopularMovies-tvOSTests.xctest"
-               BlueprintName = "PopularMovies-tvOSTests"
-               ReferencedContainer = "container:PopularMovies-tvOS.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "71F98CC31BBB7D56004AC26A"
-               BuildableName = "PopularMovies-tvOSUITests.xctest"
-               BlueprintName = "PopularMovies-tvOSUITests"
-               ReferencedContainer = "container:PopularMovies-tvOS.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "71F98CA71BBB7D56004AC26A"
-            BuildableName = "PopularMovies-tvOS.app"
-            BlueprintName = "PopularMovies-tvOS"
+            BlueprintIdentifier = "71D37A421BBCB4F600DB7F91"
+            BuildableName = "TopShelfPreview.appex"
+            BlueprintName = "TopShelfPreview"
             ReferencedContainer = "container:PopularMovies-tvOS.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -63,8 +58,8 @@
    </TestAction>
    <LaunchAction
       buildConfiguration = "Debug"
-      selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
-      selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
+      selectedDebuggerIdentifier = ""
+      selectedLauncherIdentifier = "Xcode.IDEFoundation.Launcher.PosixSpawn"
       launchStyle = "0"
       useCustomWorkingDirectory = "NO"
       ignoresPersistentStateOnLaunch = "NO"
@@ -89,7 +84,8 @@
       shouldUseLaunchSchemeArgsEnv = "YES"
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
-      debugDocumentVersioning = "YES">
+      debugDocumentVersioning = "YES"
+      launchAutomaticallySubstyle = "2">
       <BuildableProductRunnable
          runnableDebuggingMode = "0">
          <BuildableReference

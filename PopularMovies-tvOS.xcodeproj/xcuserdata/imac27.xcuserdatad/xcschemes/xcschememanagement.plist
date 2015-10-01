@@ -9,9 +9,24 @@
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
+		<key>TopShelfPreview.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>71D37A261BBC7FF500DB7F91</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>71D37A421BBCB4F600DB7F91</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>71F98CA71BBB7D56004AC26A</key>
 		<dict>
 			<key>primary</key>
