@@ -29,7 +29,9 @@ class ServiceProvider: NSObject, TVTopShelfProvider {
         item1?.imageURL = NSURL(string: "https://daverobertsfilm.files.wordpress.com/2011/02/mashup_montage.jpg")
         let item2 = TVContentItem(contentIdentifier: TVContentIdentifier(identifier: "tvcId.item2", container: nil)!)
         item2?.imageURL = NSURL(string: "http://imgick.mlive.com/home/mlive-media/width620/img/annarbornews_impact/photo/movie-night-at-big-house-7d56cf45191df8fb.jpg")
-        return [item1!, item2!]
+        let item3 = TVContentItem(contentIdentifier: TVContentIdentifier(identifier: "tvcId.item3", container: nil)!)
+        item3?.imageURL = NSURL(string: "https://redblockblog.files.wordpress.com/2015/10/movienight11.png")
+        return [item1!, item2!, item3!]
     }
     
 }

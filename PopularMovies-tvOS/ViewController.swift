@@ -9,7 +9,7 @@
 import UIKit
 
     struct LoadedMovies {
-    static var cache: [String:AnyObject] = Dictionary<String, AnyObject>()
+    static var cache: [String:Movie] = Dictionary<String, Movie>()
 }
 
 class ViewController: UIViewController, UICollectionViewDelegate, UICollectionViewDataSource, UICollectionViewDelegateFlowLayout {
@@ -27,6 +27,7 @@ class ViewController: UIViewController, UICollectionViewDelegate, UICollectionVi
         super.viewDidLoad()
         collectionView.delegate = self
         collectionView.dataSource = self
+        collectionView.layer.backgroundColor = UIColor.blackColor().CGColor
         downloadData()
     }
     func downloadData(){
@@ -106,11 +107,18 @@ class ViewController: UIViewController, UICollectionViewDelegate, UICollectionVi
         if let prev = context.previouslyFocusedView as? MovieCell {
             UIView.animateWithDuration(0.1, animations: { () -> Void in
                 prev.movieImg.frame.size = self.defaultSize
+                prev.movieImg.layer.shadowColor = UIColor.blueColor().CGColor
+                prev.movieImg.layer.shadowOffset = CGSize(width: 2.0, height: 2.0)
+                prev.movieLbl.textColor = UIColor.whiteColor()
             })
         }
         if let next = context.nextFocusedView as? MovieCell {
             UIView.animateWithDuration(0.1, animations: { () -> Void in
                 next.movieImg.frame.size = self.focusSize
+                next.movieImg.layer.shadowColor = UIColor.redColor().CGColor
+                next.movieImg.layer.shadowOffset = CGSize(width: -5.0, height: -5.0)
+                next.movieImg.layer.shadowOpacity = 0.5
+                next.movieLbl.textColor = UIColor.redColor()
             })
         }
     }

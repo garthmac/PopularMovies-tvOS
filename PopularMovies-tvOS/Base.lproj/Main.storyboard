@@ -20,34 +20,35 @@
                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="ytl-SY-hcQ">
                                 <rect key="frame" x="0.0" y="0.0" width="1920" height="1080"/>
                                 <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" minimumLineSpacing="10" minimumInteritemSpacing="10" id="hPf-rc-rLa">
-                                    <size key="itemSize" width="333" height="510"/>
+                                    <size key="itemSize" width="303" height="510"/>
                                     <size key="headerReferenceSize" width="0.0" height="0.0"/>
                                     <size key="footerReferenceSize" width="0.0" height="0.0"/>
                                     <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                                 </collectionViewFlowLayout>
                                 <cells>
                                     <collectionViewCell opaque="NO" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="MovieCell" id="9Bg-dn-HaI" customClass="MovieCell" customModule="PopularMovies_tvOS" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="0.0" width="333" height="510"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="303" height="510"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
-                                            <rect key="frame" x="0.0" y="0.0" width="333" height="510"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="303" height="510"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Terminator" translatesAutoresizingMaskIntoConstraints="NO" id="VVU-Vc-Xcb">
-                                                    <rect key="frame" x="18" y="18" width="297" height="420"/>
+                                                    <rect key="frame" x="7" y="12" width="288" height="420"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="420" id="jJn-ce-Ee3"/>
                                                         <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="420" id="wR1-in-yte"/>
                                                     </constraints>
                                                 </imageView>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Terminator Genisys" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rFB-Mn-ztn">
-                                                    <rect key="frame" x="8" y="473" width="317" height="21"/>
+                                                    <rect key="frame" x="0.0" y="467" width="303" height="21"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="21" id="8gv-f5-ImU"/>
                                                         <constraint firstAttribute="height" constant="21" id="HQE-uN-ETh"/>
+                                                        <constraint firstAttribute="width" constant="303" id="JpB-pz-jy8"/>
                                                     </constraints>
                                                     <fontDescription key="fontDescription" type="system" pointSize="20"/>
-                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                             </subviews>
@@ -55,13 +56,10 @@
                                         </view>
                                         <constraints>
                                             <constraint firstItem="VVU-Vc-Xcb" firstAttribute="centerX" secondItem="9Bg-dn-HaI" secondAttribute="centerX" id="0wQ-TL-eOf"/>
-                                            <constraint firstItem="VVU-Vc-Xcb" firstAttribute="top" secondItem="9Bg-dn-HaI" secondAttribute="topMargin" constant="10" id="Mer-oV-a37"/>
-                                            <constraint firstAttribute="trailingMargin" secondItem="rFB-Mn-ztn" secondAttribute="trailing" id="QKi-oV-a4q"/>
-                                            <constraint firstAttribute="trailingMargin" secondItem="VVU-Vc-Xcb" secondAttribute="trailing" constant="10" id="dXr-Y2-Ov4"/>
-                                            <constraint firstItem="rFB-Mn-ztn" firstAttribute="leading" secondItem="9Bg-dn-HaI" secondAttribute="leadingMargin" id="fhj-Ta-C74"/>
+                                            <constraint firstItem="VVU-Vc-Xcb" firstAttribute="top" secondItem="9Bg-dn-HaI" secondAttribute="topMargin" constant="4" id="Mer-oV-a37"/>
+                                            <constraint firstAttribute="trailingMargin" secondItem="VVU-Vc-Xcb" secondAttribute="trailing" id="dXr-Y2-Ov4"/>
                                             <constraint firstItem="rFB-Mn-ztn" firstAttribute="centerX" secondItem="9Bg-dn-HaI" secondAttribute="centerX" id="gX1-P0-8sZ"/>
                                             <constraint firstItem="rFB-Mn-ztn" firstAttribute="top" secondItem="VVU-Vc-Xcb" secondAttribute="bottom" constant="35" id="syM-7k-hfI"/>
-                                            <constraint firstItem="VVU-Vc-Xcb" firstAttribute="leading" secondItem="9Bg-dn-HaI" secondAttribute="leadingMargin" constant="10" id="vEh-32-IhX"/>
                                         </constraints>
                                         <connections>
                                             <outlet property="movieImg" destination="VVU-Vc-Xcb" id="G8x-6H-V33"/>

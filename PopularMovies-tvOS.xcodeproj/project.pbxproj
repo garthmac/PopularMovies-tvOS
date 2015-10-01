@@ -12,6 +12,7 @@
 		71D37A441BBCB4F600DB7F91 /* TVServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71D37A291BBC7FF500DB7F91 /* TVServices.framework */; };
 		71D37A471BBCB4F600DB7F91 /* ServiceProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71D37A461BBCB4F600DB7F91 /* ServiceProvider.swift */; };
 		71D37A4B1BBCB4F600DB7F91 /* TopShelfPreview.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 71D37A431BBCB4F600DB7F91 /* TopShelfPreview.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		71D37A501BBD98C700DB7F91 /* movie-night.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 71D37A4F1BBD98C700DB7F91 /* movie-night.jpg */; };
 		71F98CAC1BBB7D56004AC26A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71F98CAB1BBB7D56004AC26A /* AppDelegate.swift */; };
 		71F98CAE1BBB7D56004AC26A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71F98CAD1BBB7D56004AC26A /* ViewController.swift */; };
 		71F98CB11BBB7D56004AC26A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71F98CAF1BBB7D56004AC26A /* Main.storyboard */; };
@@ -66,6 +67,7 @@
 		71D37A431BBCB4F600DB7F91 /* TopShelfPreview.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = TopShelfPreview.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		71D37A461BBCB4F600DB7F91 /* ServiceProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceProvider.swift; sourceTree = "<group>"; };
 		71D37A481BBCB4F600DB7F91 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		71D37A4F1BBD98C700DB7F91 /* movie-night.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "movie-night.jpg"; sourceTree = "<group>"; };
 		71F98CA81BBB7D56004AC26A /* PopularMovies-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "PopularMovies-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		71F98CAB1BBB7D56004AC26A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		71F98CAD1BBB7D56004AC26A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -126,6 +128,7 @@
 			children = (
 				71D37A461BBCB4F600DB7F91 /* ServiceProvider.swift */,
 				71D37A481BBCB4F600DB7F91 /* Info.plist */,
+				71D37A4F1BBD98C700DB7F91 /* movie-night.jpg */,
 			);
 			path = TopShelfPreview;
 			sourceTree = "<group>";
@@ -314,6 +317,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				71D37A501BBD98C700DB7F91 /* movie-night.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -607,6 +611,7 @@
 				71D37A4D1BBCB4F600DB7F91 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		71F98CA31BBB7D56004AC26A /* Build configuration list for PBXProject "PopularMovies-tvOS" */ = {
 			isa = XCConfigurationList;
